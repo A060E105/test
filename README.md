@@ -1,7 +1,7 @@
 # C語言
 ```c
- #include <studio.h>
- #include <Stalin.h>
+ #include <stdio.h>
+ #include <stdlib.h>
  
  int main (void)
  {
