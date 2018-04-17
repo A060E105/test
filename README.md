@@ -1,7 +1,7 @@
 # C語言
 ```c
- #include <stdio.h>
- #include <stdlib.h>
+ #include <stdio.h> //載入標準輸出入
+ #include <stdlib.h> //載入標準函式庫
  
  int main (void)
  {
