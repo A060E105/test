@@ -1,5 +1,4 @@
 # test
-
 ```
-`scanf()`
+ C語言 scanf();
 ```
