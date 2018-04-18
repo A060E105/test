@@ -84,13 +84,13 @@ public class hello{
 		int num2 = 10;
 		int num3 = 15;
 
-		System.out.println("(" + num1 + "x" + num2 + ")" + "+" + num3 + "=" + ((num1*num2)+num3));
+		System.out.println("(" + num1 + "x" + num2 + ")+" + num3 + "=" + ((num1*num2)+num3));
 	}
 }
 ```
 >##### 結果:
 ```
-(5x10)+10=65
+(5x10)+15=65
 ```
 ---
 * ### 輸入的方法
