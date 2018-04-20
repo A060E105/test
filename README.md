@@ -250,4 +250,4 @@ public class hello{
 
 
 多行註解【^1】
-【^1】: 【註解】＜https://www.gwww.google.com.tw/＞
+【1】: 【註解】＜https://www.gwww.google.com.tw/＞
