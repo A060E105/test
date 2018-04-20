@@ -249,5 +249,5 @@ public class hello{
 ```
 
 
-多行註解【1】
-【1】: https://www.gwww.google.com.tw/
+
+
