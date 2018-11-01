@@ -7,6 +7,8 @@ set bg=dark
 set cursorline
 set cursorcolumn
 set showcmd
+set nobackup
+set noundofile
 
 hi cursorline ctermbg=darkred guibg=darkred
 hi cursorcolumn ctermbg=darkred guibg=darkred
