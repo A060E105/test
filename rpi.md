@@ -15,6 +15,11 @@ Raspberry Pi
 
 `sudo adduser user group` 將使用者家進群組
 
+### 編輯檔案
+
+`vi` /資料夾/檔案名稱 或
+`nano` /資料夾/檔案名稱
+
 ### 設定sudo權限
 
 `sudo vi /etc/sudoers` 編輯這份檔案
@@ -36,10 +41,7 @@ yourname    ALL=(ALL:ALL) NOPASSWD:ALL
 
 `groupmod --new-name newname pi`  更改群組
 
-### 編輯檔案
 
-`vi` /資料夾/檔案名稱
-`nano` /資料夾/檔案名稱
 
 ### 無線網路設定
 
