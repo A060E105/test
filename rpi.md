@@ -29,7 +29,7 @@ Raspberry Pi
 
 在 `/etc/wpa_supplicant/wpa_supplicant.conf` 做設定
 
-```conf
+```config
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 country=TW
