@@ -15,6 +15,17 @@ Raspberry Pi
 
 `sudo adduser user group` 將使用者家進群組
 
+### 設定sudo權限
+
+`sudo vi /etc/sudoers` 編輯這份檔案
+
+```
+root    ALL=(ALL:ALL) NOPASSWD:ALL
+yourname    ALL=(ALL:ALL) NOPASSWD:ALL
+
+
+```
+
 ### 更改使用者名稱
 
 若是更改預設使用者的話，請先到`raspi-config` > `Boot Options` > `Desktop / CLI` > `Desktop`關掉預設登入，並用`root`登入。
@@ -24,6 +35,11 @@ Raspberry Pi
 `usermod -m -d /home/newname pi`  更改家目錄
 
 `groupmod --new-name newname pi`  更改群組
+
+### 編輯檔案
+
+`vi` /資料夾/檔案名稱
+`nano` /資料夾/檔案名稱
 
 ### 無線網路設定
 
