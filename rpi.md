@@ -25,8 +25,8 @@ Raspberry Pi
 `sudo vi /etc/sudoers` 編輯這份檔案
 
 ```
-root    ALL=(ALL:ALL) NOPASSWD:ALL
-yourname    ALL=(ALL:ALL) NOPASSWD:ALL
+root    ALL=(ALL:ALL) NOPASSWD:ALL     #在這行下面
+yourname    ALL=(ALL:ALL) NOPASSWD:ALL #新增你的使用者名稱
 
 
 ```
