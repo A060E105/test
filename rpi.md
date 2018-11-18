@@ -33,13 +33,12 @@ yourname    ALL=(ALL:ALL) NOPASSWD:ALL #新增你的使用者名稱
 
 ### 更改使用者名稱
 
-若是更改預設使用者的話，請先到`raspi-config` > `Boot Options` > `Desktop / CLI` > `Desktop`關掉預設登入，並用`root`登入。
-
+若是更改預設使用者的話，請先到`raspi-config` > `Boot Options` > `Desktop / CLI` > `Desktop` 及`Console`關掉預設登入，重開機後請用`root`登入。
 `usermod -l newname pi`  更改使用者名稱
 
-`usermod -m -d /home/newname pi`  更改家目錄
+`usermod -m -d /home/newname newname`  更改家目錄名稱
 
-`groupmod --new-name newname pi`  更改群組
+`groupmod --new-name newname pi`  更改群組名稱
 
 
 
