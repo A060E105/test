@@ -17,8 +17,11 @@ Raspberry Pi
 
 ### 編輯檔案
 
-`vi` /資料夾/檔案名稱 __或__ 
-`nano` /資料夾/檔案名稱
+`vi /資料夾/檔案名稱 `
+
+__或__
+
+`nano /資料夾/檔案名稱`
 
 ### 設定sudo權限
 
@@ -33,7 +36,8 @@ yourname    ALL=(ALL:ALL) NOPASSWD:ALL #新增你的使用者名稱
 
 ### 更改使用者名稱
 
-若是更改預設使用者的話，請先到`raspi-config` > `Boot Options` > `Desktop / CLI` > `Desktop` 及`Console`關掉預設登入，重開機後請用`root`登入。
+若是更改預設使用者的話，請先到`raspi-config` > `Boot Options` > `Desktop / CLI` > `Desktop` 及`Console`關掉預設登入，重開機後請用其他使用者登入，或是使用`root`登入。
+
 `usermod -l newname pi`  更改使用者名稱
 
 `usermod -m -d /home/newname newname`  更改家目錄名稱
